@@ -1,0 +1,68 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+}
+
+a{
+	text-decoration: none;
+}
+/*clearfixを追加*/
+.clearfix::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+main{
+	margin: 0 auto;
+	padding-top: 50px;
+	width: 960px;
+}
+
+.list{
+	list-style: none;
+}
+
+.text-list1,.text-list3,.text-list5,.text-list7{
+	padding: 20px;
+	background-color: lightgray;
+}
+
+.text-list2,.text-list4,.text-list6{
+	padding: 20px;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9{
+	width: 30%;
+	height: 200px;
+	float: left;
+}
+
+.box1,.box2{
+	margin: 50px 5% 40px 0;
+}
+.box3{
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.box4,.box5{
+	margin-right: 5%;
+	margin-bottom: 40px;
+}
+.box6{
+	margin-bottom: 40px;
+}
+.box7,.box8{
+	margin-right: 5%;
+	margin-bottom: 50px;
+}
+.box9{
+	margin-bottom: 50px;
+}
+.box1,.box5,.box9{
+	background-color: orange;
+}
+.box2,.box3,.box4,.box6,.box7,.box8{
+	background-color: yellow;
+}
